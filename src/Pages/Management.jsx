@@ -41,17 +41,17 @@ const CarbonTrackingDashboard = () => {
   const emissions = {
     week: [
       {
-        category: "Gas Stations",
+        category: "Renewable energy ",
         credits: 950,
         icon: <Fuel className="w-5 h-5" />,
       },
       {
-        category: "Clothing And Accessories",
+        category: "Water Consumption ",
         credits: 820,
         icon: <ShoppingBag className="w-5 h-5" />,
       },
       {
-        category: "Restaurants",
+        category: "Waste Prevention",
         credits: 650,
         icon: <Utensils className="w-5 h-5" />,
       },
@@ -63,17 +63,17 @@ const CarbonTrackingDashboard = () => {
     ],
     month: [
       {
-        category: "Gas Stations",
+        category: "Renewable energy",
         credits: 1740,
         icon: <Fuel className="w-5 h-5" />,
       },
       {
-        category: "Clothing And Accessories",
+        category: "Water Consumption ",
         credits: 1020,
         icon: <ShoppingBag className="w-5 h-5" />,
       },
       {
-        category: "Restaurants",
+        category: "Waste Prevention",
         credits: 850,
         icon: <Utensils className="w-5 h-5" />,
       },
@@ -85,17 +85,17 @@ const CarbonTrackingDashboard = () => {
     ],
     year: [
       {
-        category: "Gas Stations",
+        category: "Renewable energy",
         credits: 14500,
         icon: <Fuel className="w-5 h-5" />,
       },
       {
-        category: "Clothing And Accessories",
+        category: "Water Consumption ",
         credits: 9800,
         icon: <ShoppingBag className="w-5 h-5" />,
       },
       {
-        category: "Restaurants",
+        category: "Waste Prevention ",
         credits: 8500,
         icon: <Utensils className="w-5 h-5" />,
       },
@@ -196,7 +196,7 @@ const CarbonTrackingDashboard = () => {
 
       <div className="w-full max-w-2xl bg-white rounded-xl shadow-md p-6 mx-auto">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
-          Top Credit Categories
+          Top offset Categories
         </h2>
         <div>
           {emissions[period].map((item, index) => (
